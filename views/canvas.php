@@ -37,9 +37,9 @@ $this->lang->load('base');
 $this->lang->load('dashboard');
 
 if ($layout == NULL)
-    echo infobox_warning(
-        lang('dashboard_setup_required'),
-        lang('dashboard_configure_now'),
+    echo infobox_info(
+        lang('dashboard_no_widget'),
+        lang('dashboard_configure'),
         array('buttons' =>
             array(
                 anchor_custom('/app/dashboard/settings', lang('base_configure')),
@@ -47,7 +47,6 @@ if ($layout == NULL)
             )
         )
     );
-    
 foreach ($layout as $row => $meta) {
     if (count($meta['columns']) == 0)
         continue;

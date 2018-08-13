@@ -63,6 +63,7 @@ $col_options = array(
 for ($row = 0; $row < $max_rows; $row++)
     echo field_dropdown("layout[$row]", $col_options, count($layout[$row]['columns']), lang('dashboard_number_of_cols') . ' ' . ($row + 1), FALSE);
 
+
 echo field_button_set($buttons);
 
 ///////////////////////////////////////////////////////////////////////////////

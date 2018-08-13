@@ -60,7 +60,6 @@ class Dashboard extends ClearOS_Controller
 
         $this->lang->load('dashboard');
         $this->load->library('dashboard/Dashboard', array('username' => $this->session->userdata('username')), 'my_dashboard');
-
         // Load controllers
         //-----------------
 
@@ -70,7 +69,9 @@ class Dashboard extends ClearOS_Controller
         );
 
         $index = 0;
-
+        // Verify to know if the configuration file exist
+        if($this->my_dashboard->configuration_file_exist())
+            echo("SSSSS");
         // Get registered widgets...an app may have been removed, taking widget with it.
         $registered = $this->my_dashboard->get_registered_widgets(FALSE);
 

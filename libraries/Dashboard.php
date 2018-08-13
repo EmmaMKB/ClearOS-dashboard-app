@@ -109,7 +109,19 @@ class Dashboard extends Engine
         clearos_profile(__METHOD__, __LINE__);
         $this->username = $options['username'];
     }
-
+    /**
+     * Verify if the configuration file exist
+     * 
+     * @return boolean
+    */
+    function configuration_file_exist()
+    {
+        if(file_exists(self::FILE_CONFIG))
+        {
+            return true;
+        }
+        return false;
+    }
     /**
      * Set layout.
      *
