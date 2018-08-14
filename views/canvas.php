@@ -35,8 +35,6 @@
 
 $this->lang->load('base');
 $this->lang->load('dashboard');
-
-if ($set_default_layout)
 if ($layout == NULL)
     echo infobox_info(
         lang('dashboard_no_widget'),

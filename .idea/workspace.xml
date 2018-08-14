@@ -4,7 +4,6 @@
     <list default="true" id="4f9b59c6-aa3a-4616-b2c1-c8e20d8d8b7f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/en_US/dashboard_lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/language/en_US/dashboard_lang.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/canvas.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/canvas.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,10 +32,24 @@
       <file leaf-file-name="canvas.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/canvas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+            <state relative-caret-position="165">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="e#7#381#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dashboard.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraries/Dashboard.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="262" column="31" selection-start-line="262" selection-start-column="13" selection-end-line="262" selection-end-column="31" />
+              <folding>
+                <element signature="e#7#377#0#PHP" expanded="true" />
+                <element signature="e#1365#1429#0#PHP" expanded="true" />
+                <element signature="e#1822#1882#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +72,8 @@
       <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="135" column="105" lean-forward="true" selection-start-line="135" selection-start-column="105" selection-end-line="135" selection-end-column="105" />
+            <state relative-caret-position="508">
+              <caret line="79" column="54" selection-start-line="79" selection-start-column="54" selection-end-line="79" selection-end-column="54" />
               <folding>
                 <element signature="e#390#469#0#PHP" />
               </folding>
@@ -100,8 +113,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/views/settings.php" />
-        <option value="$PROJECT_DIR$/views/canvas.php" />
         <option value="$PROJECT_DIR$/language/en_US/dashboard_lang.php" />
+        <option value="$PROJECT_DIR$/views/canvas.php" />
         <option value="$PROJECT_DIR$/controllers/dashboard.php" />
       </list>
     </option>
@@ -133,27 +146,6 @@
             <path>
               <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="deploy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="language" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="language" type="462c0819:PsiDirectoryNode" />
-              <item name="en_US" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dashboard" type="b2602c69:ProjectViewProjectNode" />
@@ -210,12 +202,12 @@
       <workItem from="1534148417043" duration="8029000" />
       <workItem from="1534162293157" duration="3562000" />
       <workItem from="1534234232549" duration="3933000" />
-      <workItem from="1534247182358" duration="1199000" />
+      <workItem from="1534247182358" duration="1991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19957000" />
+    <option name="totallyTimeSpent" value="20749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
@@ -328,6 +320,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3705">
           <caret line="262" column="31" selection-start-line="262" selection-start-column="13" selection-end-line="262" selection-end-column="31" />
+          <folding>
+            <element signature="e#7#377#0#PHP" expanded="true" />
+            <element signature="e#1365#1429#0#PHP" expanded="true" />
+            <element signature="e#1822#1882#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -362,6 +359,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1485">
           <caret line="114" column="6" lean-forward="true" selection-start-line="114" selection-start-column="6" selection-end-line="114" selection-end-column="6" />
+          <folding>
+            <element signature="e#7#377#0#PHP" expanded="true" />
+            <element signature="e#1365#1429#0#PHP" expanded="true" />
+            <element signature="e#1822#1882#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -406,7 +408,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libraries/Dashboard.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#7#377#0#PHP" expanded="true" />
+            <element signature="e#1365#1429#0#PHP" expanded="true" />
+            <element signature="e#1822#1882#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/htdocs/dashboard.js.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -491,16 +501,6 @@
     <entry file="file://$PROJECT_DIR$/views/widget_not_available.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/Dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="262" column="31" selection-start-line="262" selection-start-column="13" selection-end-line="262" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/memory.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/placeholder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -515,12 +515,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/settings.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/canvas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        <state relative-caret-position="165">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="e#7#381#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/Dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="262" column="31" selection-start-line="262" selection-start-column="13" selection-end-line="262" selection-end-column="31" />
+          <folding>
+            <element signature="e#7#377#0#PHP" expanded="true" />
+            <element signature="e#1365#1429#0#PHP" expanded="true" />
+            <element signature="e#1822#1882#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -532,13 +547,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/settings.php">
+    <entry file="file://$PROJECT_DIR$/views/memory.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="135" column="105" lean-forward="true" selection-start-line="135" selection-start-column="105" selection-end-line="135" selection-end-column="105" />
+        <state relative-caret-position="508">
+          <caret line="79" column="54" selection-start-line="79" selection-start-column="54" selection-end-line="79" selection-end-column="54" />
           <folding>
             <element signature="e#390#469#0#PHP" />
           </folding>

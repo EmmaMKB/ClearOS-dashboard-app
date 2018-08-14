@@ -75,6 +75,10 @@ class Dashboard extends ClearOS_Controller
         {
             $data['file_conf_exist'] = true;
         }
+        else
+        {
+            $this->my_dashboard->set_default_layout();
+        }
         // Get registered widgets...an app may have been removed, taking widget with it.
         $registered = $this->my_dashboard->get_registered_widgets(FALSE);
 
