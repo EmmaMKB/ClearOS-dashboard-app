@@ -13,3 +13,4 @@ $lang['dashboard_placeholder'] = 'Placeholder';
 $lang['dashboard_select_widget'] = 'Widget Selection';
 $lang['dashboard_setup_required'] = 'Setup Required';
 $lang['dashboard_no_widget'] = 'No widgets';
+$lang['dashboard_restart'] = 'Restart';

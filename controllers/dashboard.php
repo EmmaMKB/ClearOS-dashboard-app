@@ -70,8 +70,11 @@ class Dashboard extends ClearOS_Controller
 
         $index = 0;
         // Verify to know if the configuration file exist
+        $data['file_conf_exist'] = false;
         if($this->my_dashboard->configuration_file_exist())
-            echo("SSSSS");
+        {
+            $data['file_conf_exist'] = true;
+        }
         // Get registered widgets...an app may have been removed, taking widget with it.
         $registered = $this->my_dashboard->get_registered_widgets(FALSE);
 
@@ -130,7 +133,8 @@ class Dashboard extends ClearOS_Controller
         // Add settings and delete widget to breadcrumb trail
         $options['breadcrumb_links'] = array(
             'settings' => array('url' => '/app/dashboard/settings', 'tag' => lang('base_settings')),
-            'delete' => array('url' => '#', 'tag' => lang('base_delete'), 'class' => 'dashboard-delete')
+            'delete' => array('url' => '#', 'tag' => lang('base_delete'), 'class' => 'dashboard-delete'),
+            'restart' => array('url' => '/app/base/shutdown/confirm/restart','tag' => lang('dashboard_restart'), 'class' => '' )
         );
         $options['type'] = MY_Page::TYPE_DASHBOARD;
 
